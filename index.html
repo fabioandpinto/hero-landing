@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HERO — Where Talent Meets Opportunity</title>
+  <meta name="description" content="HERO democratiza la inversión en atletas a nivel global. El talento decide el éxito, no la riqueza." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="nav-logo">HERO</a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#problema" class="nav-link">El Problema</a></li>
+        <li><a href="#solucion" class="nav-link">La Solución</a></li>
+        <li><a href="#mercado" class="nav-link">Mercado</a></li>
+        <li><a href="#equipo" class="nav-link">Equipo</a></li>
+        <li><a href="#contacto" class="nav-link nav-cta">Únete</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <!-- IMAGEN 1: Fondo dramático con atleta corriendo -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <img
+        class="hero-bg-img"
+        src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=1920&q=80"
+        alt=""
+        aria-hidden="true"
+      />
+      <div class="hero-bg-overlay"></div>
+      <div class="hero-particles" id="particles"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-ticker animate-fade-up">HERO &mdash; HERO &mdash; HERO &mdash; HERO &mdash; HERO</div>
+      <h1 class="hero-title animate-fade-up delay-1">HERO</h1>
+      <p class="hero-tagline animate-fade-up delay-2">Where Talent Meets Opportunity</p>
+      <p class="hero-subtitle animate-fade-up delay-3">Democratizando la inversión en atletas a nivel global</p>
+      <div class="hero-mission animate-fade-up delay-4">
+        <span class="mission-label">Misión</span>
+        <span class="mission-divider">|</span>
+        <span class="mission-text">"El talento decide el éxito, no la riqueza."</span>
+      </div>
+      <p class="hero-founder animate-fade-up delay-5">
+        <strong>Fundado por:</strong> Jero &mdash; Piloto de Motorsport de élite
+      </p>
+      <div class="hero-actions animate-fade-up delay-6">
+        <a href="#solucion" class="btn btn-primary">Descubrir la Plataforma</a>
+        <a href="#mercado" class="btn btn-outline">Ver la Oportunidad</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== EL PROBLEMA ===== -->
+  <!-- IMAGEN 2: Atleta en entrenamiento — columna derecha fija -->
+  <section class="section problem" id="problema">
+    <div class="container problem-grid">
+
+      <div class="problem-left">
+        <div class="section-header animate-on-scroll">
+          <span class="section-tag">El Problema</span>
+          <h2 class="section-title">La Realidad Brutal</h2>
+        </div>
+
+        <div class="problem-cards">
+          <div class="problem-card animate-on-scroll">
+            <div class="problem-icon">🏃</div>
+            <h3>Atletas</h3>
+            <p>Sin financiamiento. Sin coaching. Sin visibilidad. Sin camino hacia adelante.</p>
+          </div>
+          <div class="problem-card animate-on-scroll">
+            <div class="problem-icon">🏛️</div>
+            <h3>Instituciones</h3>
+            <p>Datos fragmentados. Scouting lento. Pipelines de talento débiles.</p>
+          </div>
+        </div>
+
+        <div class="stats-banner animate-on-scroll">
+          <div class="stats-why">¿Por qué<br>importa?</div>
+          <div class="stats-items">
+            <div class="stat-item">
+              <div class="stat-value">
+                <span class="stat-number" data-target="300">0</span><span class="stat-suffix">M+</span>
+              </div>
+              <span class="stat-label">Atletas jóvenes en el mundo</span>
+            </div>
+            <div class="stats-divider"></div>
+            <div class="stat-item">
+              <div class="stat-value">
+                <span class="stat-prefix">$</span><span class="stat-number" data-target="50">0</span><span class="stat-suffix">K+</span>
+              </div>
+              <span class="stat-label">Costo anual para ser competitivo</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="reality-row animate-on-scroll">
+          <span class="reality-from">Realidad</span>
+          <span class="reality-arrow">&#x2192;</span>
+          <span class="reality-to">El éxito está determinado por la riqueza,<br>no por el talento.</span>
+        </div>
+
+        <div class="consequences animate-on-scroll">
+          <h3 class="consequences-title">¿Qué pasa si no se soluciona?</h3>
+          <ul class="consequences-list">
+            <li>Cada año, más de 300M de atletas abandonan sus sueños</li>
+            <li>El talento perdido representa más de $2.5T en valor económico no realizado</li>
+            <li>Las federaciones y gobiernos pierden atletas y líderes de clase mundial</li>
+            <li>$50B anuales en brechas de entrenamiento sin financiamiento quedan sin alcanzar</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Imagen lateral del problema -->
+      <div class="problem-photo animate-on-scroll">
+        <div class="problem-photo-inner">
+          <img
+            src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=80"
+            alt="Atleta entrenando con determinación"
+          />
+          <div class="problem-photo-tint"></div>
+          <div class="problem-photo-badge">
+            <strong>300M+</strong>
+            atletas sin acceso real a financiamiento ni visibilidad
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== LA SOLUCIÓN ===== -->
+  <!-- IMAGEN 3: Atleta en acción — columna izquierda con overlay de resultado -->
+  <section class="section solution" id="solucion">
+    <div class="container">
+
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">La Solución</span>
+        <h2 class="section-title">La Plataforma HERO</h2>
+        <p class="section-subtitle">Hero conecta el talento con la oportunidad</p>
+      </div>
+
+      <div class="pillars animate-on-scroll">
+        <div class="pillar">
+          <div class="pillar-icon">🏆</div>
+          <span>Atleta</span>
+        </div>
+        <div class="pillar-connector"></div>
+        <div class="pillar">
+          <div class="pillar-icon">📊</div>
+          <span>Datos</span>
+        </div>
+        <div class="pillar-connector"></div>
+        <div class="pillar">
+          <div class="pillar-icon">👁️</div>
+          <span>Visibilidad</span>
+        </div>
+        <div class="pillar-connector"></div>
+        <div class="pillar">
+          <div class="pillar-icon">🤝</div>
+          <span>Soporte</span>
+        </div>
+      </div>
+
+      <div class="solution-split">
+
+        <div class="solution-athlete animate-on-scroll">
+          <img
+            src="https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=900&q=80"
+            alt="Atleta corriendo hacia el éxito"
+          />
+          <div class="solution-athlete-overlay">
+            <p class="solution-outcome-tag">El Resultado:</p>
+            <p class="solution-outcome-phrase">Éxito por talento,<br>no por riqueza.</p>
+          </div>
+        </div>
+
+        <div class="features-col">
+          <div class="feature-card animate-on-scroll">
+            <span class="feature-num">01</span>
+            <div class="feature-body">
+              <h3>Sistema de Ranking Verificado</h3>
+              <p>Resultados oficiales de competencias vinculados a FIFA, FIA y organismos deportivos globales.</p>
+            </div>
+          </div>
+          <div class="feature-card animate-on-scroll">
+            <span class="feature-num">02</span>
+            <div class="feature-body">
+              <h3>Oportunidades para Atletas</h3>
+              <p>Acceso directo a instalaciones de entrenamiento, entrenadores, equipos y federaciones.</p>
+            </div>
+          </div>
+          <div class="feature-card animate-on-scroll">
+            <span class="feature-num">03</span>
+            <div class="feature-body">
+              <h3>Recursos Basados en Datos</h3>
+              <p>Federaciones, equipos y patrocinadores con descubrimiento de talento basado en datos.</p>
+            </div>
+          </div>
+          <div class="feature-card animate-on-scroll">
+            <span class="feature-num">04</span>
+            <div class="feature-body">
+              <h3>Fondo de Inversión</h3>
+              <p>Apoyo financiero y logístico para que los mejores talentos compitan al más alto nivel.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MERCADO ===== -->
+  <section class="section market" id="mercado">
+    <div class="container">
+
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Oportunidad</span>
+        <h2 class="section-title">Oportunidad de Mercado</h2>
+      </div>
+
+      <div class="market-layout">
+
+        <div class="market-numbers animate-on-scroll">
+          <div class="market-card">
+            <span class="market-figure">$68.7B</span>
+            <span class="market-name">Mercado Global de Sports Tech</span>
+            <span class="market-note">Crecimiento del 100% en 5 años (2030)</span>
+          </div>
+          <div class="market-card">
+            <span class="market-figure">$4.2B</span>
+            <span class="market-name">Mercado Direccionable de HERO</span>
+            <span class="market-note">Financiamiento + Identificación de Talento + Rendimiento</span>
+          </div>
+          <div class="market-card">
+            <span class="market-figure">$35B+</span>
+            <span class="market-name">Inversiones de Impacto Deportivo</span>
+            <span class="market-note">€4.20 ROI por cada €1 invertido (2024–2025)</span>
+          </div>
+        </div>
+
+        <div class="customers animate-on-scroll">
+          <h3 class="customers-title">Clientes Objetivo</h3>
+          <div class="customer-list">
+            <div class="customer">
+              <div class="customer-icon">🥇</div>
+              <div>
+                <h4>Atletas de Élite</h4>
+                <p>Talentos desatendidos que buscan visibilidad y financiamiento</p>
+              </div>
+            </div>
+            <div class="customer">
+              <div class="customer-icon">🏟️</div>
+              <div>
+                <h4>Federaciones y Equipos</h4>
+                <p>Necesitan pipelines de talento basados en datos</p>
+              </div>
+            </div>
+            <div class="customer">
+              <div class="customer-icon">💼</div>
+              <div>
+                <h4>Patrocinadores e Inversores</h4>
+                <p>En busca de talentos emergentes e impacto social</p>
+              </div>
+            </div>
+            <div class="customer">
+              <div class="customer-icon">🏛️</div>
+              <div>
+                <h4>Gobiernos y Ministerios</h4>
+                <p>Apuntando a fortalecer el talento nacional e internacional</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EQUIPO ===== -->
+  <!-- IMAGEN 4: Foto de motorsport/carreras en panel derecho -->
+  <section class="section team" id="equipo">
+    <div class="container">
+
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">Liderazgo</span>
+        <h2 class="section-title">Conoce al Equipo</h2>
+      </div>
+
+      <div class="team-card animate-on-scroll">
+        <div class="team-info">
+          <span class="team-role">Fundador &amp; CEO</span>
+          <h3 class="team-name">Jero</h3>
+          <p class="team-sub">Piloto de Motorsport de élite convertido en emprendedor tecnológico</p>
+          <div class="achievements">
+            <div class="achievement">
+              <strong>14+ años</strong>
+              <span>compitiendo a nivel élite en los circuitos más importantes del mundo</span>
+            </div>
+            <div class="achievement">
+              <strong>Ganador comprobado:</strong>
+              <span>Paul Ricard (circuito F1) 2022 · Le Mans, Mugello, Portimão 2024</span>
+            </div>
+            <div class="achievement">
+              <strong>Reconocido:</strong>
+              <span>Piloto del Año — Federación Colombiana de Automovilismo (2022) · Forbes 70 Líderes del Futuro</span>
+            </div>
+          </div>
+          <a href="mailto:jero@jero66.com" class="team-email">✉ jero@jero66.com</a>
+        </div>
+
+        <div class="team-visual">
+          <img
+            class="team-photo"
+            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80"
+            alt="Piloto de motorsport en pista de carreras"
+          />
+          <div class="team-rings"></div>
+          <div class="team-photo-overlay">
+            <span class="team-num-badge">66</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CTA ===== -->
+  <section class="section cta" id="contacto">
+    <div class="container">
+      <div class="cta-inner animate-on-scroll">
+        <span class="cta-tag">Únete al Movimiento</span>
+        <h2 class="cta-title">¿Listo para cambiar<br>el deporte mundial?</h2>
+        <p class="cta-sub">Sé parte de la revolución que hace que el talento, y no la riqueza, decida quién llega a la cima.</p>
+        <div class="cta-buttons">
+          <a href="mailto:jero@jero66.com" class="btn btn-primary btn-lg">Conectar con HERO</a>
+          <a href="mailto:jberrio.ieu2025@students.ie.edu" class="btn btn-outline btn-lg">Más Información</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <span class="footer-logo">HERO</span>
+          <p>Where Talent Meets Opportunity</p>
+        </div>
+        <nav class="footer-nav">
+          <a href="#inicio">Inicio</a>
+          <a href="#problema">El Problema</a>
+          <a href="#solucion">La Solución</a>
+          <a href="#mercado">Mercado</a>
+          <a href="#equipo">Equipo</a>
+        </nav>
+        <div class="footer-quote">
+          <p>"El talento decide el éxito,<br>no la riqueza."</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 HERO. Todos los derechos reservados. &mdash; Fundado por Jero</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
