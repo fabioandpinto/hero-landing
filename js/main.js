@@ -366,17 +366,15 @@ function applyLanguage(lang) {
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) metaDesc.setAttribute('content', t['page-desc']);
 
-  document.querySelectorAll('.lang-opt').forEach(opt => {
-    opt.classList.toggle('active', opt.dataset.langOpt === lang);
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.lang === lang);
   });
 
   localStorage.setItem('hero-lang', lang);
 }
 
-const langToggle = document.getElementById('langToggle');
-langToggle.addEventListener('click', () => {
-  applyLanguage(currentLang === 'es' ? 'en' : 'es');
+document.querySelectorAll('.lang-btn').forEach(btn => {
+  btn.addEventListener('click', () => applyLanguage(btn.dataset.lang));
 });
 
-const savedLang = localStorage.getItem('hero-lang');
-applyLanguage(savedLang === 'es' ? 'es' : 'en');
+applyLanguage(localStorage.getItem('hero-lang') || 'es');
